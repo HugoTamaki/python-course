@@ -1,0 +1,16 @@
+
+
+1 - Criar um programa que peça a temperatura em Celsius e devolva em Farenheigt
+2 - Criar um programa que peça o raio de um circulo e devolva sua área
+3 - Crie um programa que receba uma quantidade de peixes (em kg). Se a quantidade for maior que o limite (50 kg), a cada kilo a mais haverá uma multa de 4 reais. O programa deve devolver uma mensagem dizendo que não há problemas se o peso for menor que o limite, e uma mensagem dizendo quantos kilos a mais há na medida, e quanto de multa deverá ser pago.
+4 - Faça um programa que leia três números e devolva a média
+5 - Criar um programa que receba um número e devolva seu equivalente do mês (ex: 1 retorna Janeiro)
+
+6 - Faça um programa que leia um número n, e depois peça n números, e devolva a média dos n números lidos
+7 - Adaptar o programa anterior para que ele devolva qual foi o menor número e o maior número
+8 - Criar um programa que imprima apenas numeros ímpares entre 1 e 50
+9 - Criar um programa que leia um número n, e depois peça n números, e devolva apenas os pares
+10 - Criar um programa que leia frases enquanto o usuário não entra com uma string vazia. O programa deve 11 - dizer por frase quantas palavras tem a frase, qual o total de letras de cada frase, e quais são as palavras com vogais pares
+
+12 - Desenvolver uma função gerador de tabuadas que receba um numero de 1 a 10, e devolva a tabuada desse numero
+13 - Construa uma função que receba uma data no formato DD/MM/AAAA e devolva uma string no formato D de mesPorExtenso de AAAA. Opcionalmente, valide a data e retorne NULL caso a data seja inválida

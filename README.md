@@ -204,10 +204,4 @@ while i < 10:
   i += 1
 ```
 
-Desafio:
-* sum(range(1, 10)) - criar uma função range que recebe dois parâmetros, start e end, e retorna um vetor contendo todos os numeros entre start e end. Outra função chamada sum que recebe um array como argumento, e retorna a soma de todos os valores.
-* loop pra contar quantos nomes tem mais de 5 letras
-* loop pra contar quantos animais são cachorros (array de obj)
-* loop pra transformar elementos (retornar apenas nome dos animais)
-* loop pra encontrar um valor especifico dentro do vetor
-* loop pra filtrar apenas um tipo de animal
+
