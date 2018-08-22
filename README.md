@@ -20,9 +20,9 @@ print(x)
 ## Tipagem forte
 
 ```
-var x = 99;
+x = 99
 
-x = x + "not a number";
+x = x + "not a number"
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
@@ -34,12 +34,12 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 - Multiplicação
 - Divisão
 
-var x = 5;
-var y = 6;
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
+x = 5
+y = 6
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
 ```
 
 ## Comparadores
@@ -74,7 +74,6 @@ elif idade == 18:
   print("Você tem exatamente 18!")
 else:
   print("Menor de idade")
-}
 ```
 
 Desafio: Criar condicionais usando alguns comparativos
