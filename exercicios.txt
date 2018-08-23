@@ -14,3 +14,29 @@
 
 12 - Desenvolver uma função gerador de tabuadas que receba um numero de 1 a 10, e devolva a tabuada desse numero
 13 - Construa uma função que receba uma data no formato DD/MM/AAAA e devolva uma string no formato D de mesPorExtenso de AAAA. Opcionalmente, valide a data e retorne NULL caso a data seja inválida
+
+-- OO --
+
+14 - Fazer uma classe que gera Carros. A classe deve conter os atributos: nome, marca, kilometros rodados.
+
+15 - Criar na classe acima um método construtor que defina um nome e sua marca
+
+16 - Criar na classe acima um método de instância que retorne seu nome e sua marca
+
+17 - Criar na classe acima um método de instância que ande com o carro. O método deve receber quantos km o carro andou, o valor deve ser incrementado no atributo kilometro rodado
+
+18 - Criar na classe acima um método de instância que retorne quantos km o carro já rodou
+
+19 - Criar um programa para simular um sistema bancário.
+- O cliente deve ter um nome, saldo e banco a qual pertence.
+- O cliente deve ter um método que descreva seus atributos
+- O cliente deve ter um método que permite receber deposito
+- O cliente deve ter um método que permite realizar saques
+- O cliente deve ter um método que permite realizar transferências para outros clientes
+
+20 - Adaptar o sistema para que ele tenha tipos diferentes de clientes.
+
+- Cliente basico deve pagar taxa de 10 dinheiros pra fazer transferência, independente do banco
+- Cliente normal deve pagar taxa de 10 dinheiros apenas para bancos diferentes
+- Cliente VIP não paga taxa
+
