@@ -203,4 +203,113 @@ while i < 10:
   i += 1
 ```
 
+## Orientação a Objetos
+
+A orientação a objetos se propõe a um novo paradigma de programação, em que `objetos` compõe um sistema e interagem entre si. É considerado o paradigma com menor `gap semântico`, ou seja, o espaço entre o mundo real e a representação dele, ou seja, a orientação a objetos tenta representar da melhor forma possível o mundo real.
+
+### Classes
+
+A classe é a definição de como um objeto deve ser. Funciona como um molde, é o criador dos objetos.
+
+```
+class Person():
+  def say_hello(self):
+    print("Hello!")
+
+  def work(self):
+    print("I am working...")
+
+  def stop_work(self):
+    print("Yahoo!")
+
+```
+
+### objetos
+
+Objetos são os principais elementos do paradigma da orientação a objetos.
+Objetos precisam ser instanciados a partir de uma classe.
+
+```
+bob = Person()
+
+bob.say_hello()
+# Hello!
+
+bob.work()
+# I am working...
+
+bob.stop_work()
+# Yahoo!
+```
+
+### métodos de instância
+
+Os métodos definidos dentro de `class` são chamados de métodos de instância. Esses métodos conseguem ser chamados a partir do objeto ( ex: `bob.say_hello()` ), esses métodos também precisam receber um argumento inicial, o `self`
+
+### self
+
+Objetos possuem atributos, é como se fosse possível através de uma classe Carro, criar diversos carros de marcas diferentes, um carro da Honda, um carro da Volkswagen, um carro da Chrevrolet, etc etc, ou dar outros atributos como Kilometros rodados, quantidade de combustível, etc etc ...
+Para acessar ou modificar esses atributos da própria instância, surge o conceito de `self`, ou `this` no caso de outras linguagens. O `self` é a representação da própria instância.
+
+```
+class Person():
+  def say_name(self):
+    print("My name is " + self.name)
+
+  def set_name(self, name):
+    self.name = name
+
+# instanciando o objeto:
+person = Person()
+
+person.say_name():
+# AttributeError: Person instance has no attribute 'name'
+
+person.set_name("John")
+
+person.say_name()
+# My name is John
+```
+
+Uma coisa importante: objetos guardam atributos independentes. Um objeto não enxerga o atributo de outro, e vice-versa
+
+```
+john = Person()
+john.set_name("John")
+
+bob = Person()
+bob.set_name("Bob")
+
+john.say_name()
+# My name is John
+
+bob.say_name()
+# My name is Bob
+```
+
+### Método construtor
+
+Existe um método default chamado método construtor. Este método permite que na hora de instanciar a classe, a classe receba argumentos, e dessa forma o objeto já é criado com alguns atributos, ou alguns processos podem ser executados no momento quando o objeto é criado.
+
+```
+class Person():
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def say_name(self):
+    print("My name is " + self.name)
+
+  def say_age(self):
+    print("My age is " + str(self.age))
+
+bob = Person("Bob", 30)
+
+bob.say_name():
+# My name is Bob
+
+bob.say_age():
+# My age is 30
+```
+
 
